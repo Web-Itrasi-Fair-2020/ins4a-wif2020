@@ -1,0 +1,142 @@
+nav{
+    background: linear-gradient(to right, #ff9900 43%, #663300 100%);
+}
+.carousel-item{
+    margin-top: 100px;
+}
+.navbar-brand{
+    font-family: 'Karla', ;
+    font-size: 36px;
+}
+.navbar-collapse{
+    color: white !important;
+}
+h1{
+    font-size: 26px;
+}
+.form-control{
+    border-radius: 40px;
+    width: 50%;
+}
+.carousel-item img{
+    margin-top: -64px;
+}
+.btn{
+    border-radius: 40px;
+}
+
+.Official h1{
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.card-body h3 h5{
+    font-size: 12px;
+    font-family: 'Bitter', serif
+}
+.media{
+        text-align: center !important;
+        margin-left: 420px !important;
+    }
+    .tombol{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: #f1f1f1;
+        margin: 50px;
+        border-radius: 30%;
+        box-shadow: 0 5px 15px -5px #00000070;
+        color:black;
+        overflow: hidden;
+        position: relative;
+    }
+    .tombol i{
+        line-height: 50px;
+        font-size: 26px;
+        transition: 0.2s linier;
+    }
+    .tombol:hover i{
+        transform: scale(1.3);
+        color: #f1f1f1;
+    }
+    .tombol::before{
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        background: #3498db;
+        transform: rotate(45deg);
+        left: -110%;
+        top: 90%;
+    }
+    .tombol:hover::before{
+        animation: aaa 0.7s 1;
+        top: -10%;
+        left: -10%;
+    }
+    @keyframes aaa{
+        0%{
+            left: -110%;
+            top: 90%;
+        }
+        50%{
+            left: 10%;
+            top: -30%;
+        }
+        100%{
+            left: -10%;
+            top: -10%;
+        }
+    }
+
+footer{
+    background: black;
+}
+    
+
+
+@media (min-width: 992px) { 
+    .nav-item{
+        text-transform: uppercase;
+        margin-right: 30px;
+        border: none;
+    }
+    .nav-item:hover{
+        border-bottom: 3px solid #066272;
+    }
+    .dropdown-menu{
+        background:whitesmoke;
+        
+    }
+    .nav-item:hover .dropdown-menu{
+        display: block;
+    }
+    /*Carousel*/
+    .carousel-item{
+        height: 670px;
+    }
+    .carousel-item img{
+        margin-top: -120px;
+    }
+    .carousel-item .display-4{
+        margin-top: -100px;
+        height: 687px;
+    }
+    .carousel-caption h1{
+        color:white;
+        font-style: initial;
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .carousel-item .btn{
+        background-color: #f05f40;
+        border: none;
+        border-radius: 25px;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-top: 40px;
+    }
+    
+    
+
+}
